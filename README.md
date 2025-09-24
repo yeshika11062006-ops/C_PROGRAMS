@@ -1,18 +1,28 @@
-# C Programs Repository
+# C_Programs
 
-This repository contains my beginner C programs.
+This repository contains basic C programs.
 
-## Programs Included
-1. **hello.c** – Prints "Hello, World!".
-2. **sum.c** – Takes two numbers as input and prints their sum.
+## Programs
 
-## How to Compile and Run
+### Day 1 
+- **hello.c** → Prints "Hello, World!"
+- **sum.c** → Adds two numbers entered by the user.
 
-### Using Terminal (Windows)
-```cmd
-gcc hello.c -o hello.exe
-hello.exe
+### Day 2 
+- **for_loop.c** → Demonstrates for loops in C
+- **factorial.c** → Calculates factorial of a number
 
+## How to run
 
-gcc sum.c -o sum.exe
-sum.exe
+```bash
+# Day 1
+gcc hello.c -o hello
+./hello
+gcc sum.c -o sum
+./sum
+
+# Day 2
+gcc for_loop.c -o for_loop
+./for_loop
+gcc factorial.c -o factorial
+./factorial
