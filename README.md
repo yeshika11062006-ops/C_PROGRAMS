@@ -12,6 +12,10 @@ This repository contains basic C programs.
 - **for_loop.c** → Demonstrates for loops in C
 - **factorial.c** → Calculates factorial of a number
 
+### Day 3 
+- **array_sum.c** → Calculates the sum of elements in an array
+- **reverse_array.c** → Reverses the elements of an array
+
 ## How to run
 
 ```bash
@@ -26,3 +30,9 @@ gcc for_loop.c -o for_loop
 ./for_loop
 gcc factorial.c -o factorial
 ./factorial
+
+# Day 3
+gcc array_sum.c -o array_sum
+./array_sum
+gcc reverse_array.c -o reverse_array
+./reverse_array
