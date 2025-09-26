@@ -16,6 +16,10 @@ This repository contains basic C programs.
 - **array_sum.c** → Calculates the sum of elements in an array
 - **reverse_array.c** → Reverses the elements of an array
 
+### Day 4 
+- **string_length.c** → Finds the length of a string
+- **palindrome.c** → Checks if a string is a palindrome
+
 ## How to run
 
 ```bash
@@ -36,3 +40,9 @@ gcc array_sum.c -o array_sum
 ./array_sum
 gcc reverse_array.c -o reverse_array
 ./reverse_array
+
+# Day 4
+gcc string_length.c -o string_length
+./string_length
+gcc palindrome.c -o palindrome
+./palindrome
